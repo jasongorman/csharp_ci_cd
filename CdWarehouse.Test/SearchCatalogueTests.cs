@@ -10,7 +10,7 @@ namespace CdWarehouse.Test
         {
             string artist = "Peter Gabriel";
             string title = "So";
-            CompactDisc cd = new CompactDisc(artist, title);
+            CompactDisc cd = new CompactDisc(artist, title, 10, 10, null);
             Catalogue catalogue = new Catalogue(cd);
             Assert.AreSame(cd, catalogue.Search(artist, title)[0]);
         }
@@ -20,7 +20,7 @@ namespace CdWarehouse.Test
         {
             string artist = "Peter Gabriel";
             string title = "So";
-            CompactDisc cd = new CompactDisc(artist, title);
+            CompactDisc cd = new CompactDisc(artist, title, 0, 0, null);
             Catalogue catalogue = new Catalogue();
             Assert.AreEqual(0, catalogue.Search(artist, title).Count);
         }
