@@ -1,4 +1,4 @@
-﻿//IPayments
+﻿//IPayments Description
 namespace CdWarehouse.Test
 {
     public interface IPayments
