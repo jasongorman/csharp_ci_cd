@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-
+// Este es un comentario
 namespace CdWarehouse.Test
 {
     public class Catalogue
